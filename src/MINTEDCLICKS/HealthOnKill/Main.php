@@ -19,7 +19,7 @@ $killer = $event->getDamager();
 
 if($playerKilled instanceof Player && $killer instanceof Player){
 if($playerKilled->getHealth() - $event->getFinalDamage() <= 0){
-$killer->setHealth(20);
+$killer->setHealth($killer->getMaxHealth());
 }
 }
 }
