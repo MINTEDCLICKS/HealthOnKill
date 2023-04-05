@@ -1,0 +1,8 @@
+---
+name: HealthOnKill
+version: 1.0.0
+author: MINTEDCLICKS
+main: MINTEDCLICKS\HealthOnKill\Main
+description: Add health on kill by minty#4097
+api: 4.0.0
+...
